@@ -1,4 +1,4 @@
-kevinquan_portfolio
+kevinquan-portfolio
 ===================
 
 Source for http://www.kevinquan.com/
