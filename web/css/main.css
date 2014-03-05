@@ -1,0 +1,20 @@
+.header-nav {
+    display:inline;
+}
+
+.header-nav a {
+    text-decoration:none;
+}
+
+.header-nav a:hover {
+    text-decoration:underline;
+}
+
+/* https://about.twitter.com/press/brand-assets */
+.header-nav a.twitter {
+	background-image:url(../images/twitter_24x20.png);
+	background-repeat: no-repeat;
+	/*  Padding between image and text is 30% of logo as per guidelines */
+	padding-left:32px;
+	height:20px;
+}
