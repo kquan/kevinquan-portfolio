@@ -1,0 +1,4 @@
+<!-- #12: http://www.codeproject.com/Tips/666578/HTML-and-Some-CSS-Best-Practice --> 
+article, aside, figcaption, figure, footer, header, nav, section {
+    display: block;
+}     

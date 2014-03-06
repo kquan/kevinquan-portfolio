@@ -1,0 +1,59 @@
+body>header {
+    width: 100%;
+}
+
+.header-nav {
+    text-align: right;
+    padding-right: 25px;
+}
+
+.header-nav li {
+    display: inline;
+    list-style-type: none;
+}
+
+.header-nav a {
+    text-decoration: none;
+    background: #333333;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 5px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+}
+
+.header-nav a:hover {
+    background: #555555;
+}
+
+/* http://deployment.googleapps.com/Home/user-resources/google-icons-and-logos */
+.header-nav a.gmail {
+    background-image: url(../images/googlemail-16.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    text-align: left;
+    text-indent: -9999px;
+}
+
+/* https://developer.linkedin.com/documents/branding-guidelines */
+.header-nav a.linkedin {
+    background-image: url(../images/linkedin_16x16.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    text-align: left;
+    text-indent: -9999px;
+}
+
+/* https://about.twitter.com/press/brand-assets */
+.header-nav a.twitter {
+    background-image: url(../images/twitter_20x16.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    /*  Padding between image and text is 30% of logo as per guidelines */
+    padding-left: 26px;
+    color: #55ACEE;
+    font-family: 'Alegreya Sans';
+}

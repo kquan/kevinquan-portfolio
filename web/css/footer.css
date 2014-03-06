@@ -1,0 +1,9 @@
+body>footer {
+    width: 100%;
+    font-family: 'Alegreya Sans';
+}
+
+body>footer .footer-copyright {
+    text-align: center;
+    font-size: 0.9em;
+}
