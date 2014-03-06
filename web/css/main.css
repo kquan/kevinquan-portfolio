@@ -1,12 +1,63 @@
 @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
 @import url(normalize.css);
+
 @import url(support.css);
 
 body {
 	background: #777777;
 }
 
+.identities li {
+	list-style-type: none;
+}
+
+.identities li a {
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 24px;
+	line-height: 24px;
+	text-decoration: none;
+	font-family: 'Alegreya Sans';
+	font-size: 0.9em;
+	color: #dddddd;
+}
+
+.identities li a:hover {
+	color: #ffffff;
+}
+
+/* https://www.facebookbrand.com/ */
+.identities a.facebook {
+	background-image: url(../images/facebook_16x16.png);
+}
+
+/* https://foursquare.com/about/logos */
+.identities a.foursquare {
+    background-image: url(../images/4sq_16x16.png);
+}
+
+/* http://instagram.com/press/ */
+.identities a.instagram {
+    background-image: url(../images/instagram_16x16.png);
+}
+
+/* https://github.com/logos */
+.identities a.github {
+	background-image: url(../images/github_16x16.png);
+}
+
 /* https://developers.google.com/+/branding-guideline */
-a.google_plus {
-	
+.identities a.google_plus {
+	background-image: url(../images/googleplus_16x16.png);
+}
+
+/* Copied from favicon.ico */
+.identities a.lastfm {
+	background-image: url(../images/lastfm_16x16.png);
+}
+
+/* Copied from favicon.ico */
+.identities a.mlkshk {
+    background-image: url(../images/mlkshk_16x16.png);
 }
