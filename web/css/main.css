@@ -1,33 +1,59 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
-
-@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:300);
-
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300|Damion|Alegreya+Sans:300);
 @import url(normalize.css);
-
 @import url(support.css);
+
 
 body {
 	font-family: 'Ubuntu';
 }
 
-.summary {
+.splash {
+	position:relative;
 	background-color: #fff;
 	background-image: url(../images/splash.jpg);
 	background-attachment: center;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: contain;
-	height: 500px;
+	background-size: cover;
 	text-align: center;
+	width: 100%;
+	min-height:600px;
 }
 
-.summary h1 {
-	font-size: 5em;
-	color: #fff;
-	text-indent: -5em;
+.summary {
+	position:relative;
+	top:2em;
+	left:-12em;
+}
+
+.summary h1  {
+	font-family: 'Damion';
+	font-size: 6.7em;
+	text-indent:-0.15em;
+	color: #fc3;
 	/* Fix margin collapsing */
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.pitch {
+	display:inline-block;
+	width: 475px;
+	margin-top:20px;
+	background: rgb(255, 255, 255);
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 25px;
+	padding:10px 15px 10px 15px;
+	font-size:1.6em;
+	text-align: left;
+	line-height: 125%;
+	color:#fff;
+}
+
+.identities {
+	position:absolute;
+	top:50px;
+	right:125px;
 }
 
 .identities li {
