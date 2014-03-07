@@ -1,50 +1,59 @@
-body>header  {
+body>header {
 	background: #777;
-    width: 100%;
-    line-height:48px;
-    padding-bottom:10px;
-    border-bottom: 2px solid #fc3;
+	width: 100%;
+	line-height: 48px;
+	padding-bottom: 5px;
 }
 
 .header-nav {
-    text-align: right;
-    padding: 0 25px 0 0;
-    margin:0;
+	text-align: right;
+	padding: 0 25px 0 0;
+	margin: 0;
 }
 
 .header-nav li {
-    display: inline;
-    list-style-type: none;
+	display: inline;
+	list-style-type: none;
 }
 
 .header-nav a {
-    text-decoration: none;
-    background: #333333;
-    padding: 10px 10px 10px 10px;
-    margin: 5px 5px 5px 5px;
-    border-radius: 5px;
-    width: 16px;
-    height: 16px;
-    line-height: 16px;
+	text-decoration: none;
+	background: #333333;
+	padding: 10px 10px 10px 10px;
+	margin: 5px 5px 5px 5px;
+	border-radius: 5px;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
 }
 
 .header-nav a:hover {
-    background: #555555;
+	background: #555555;
 }
 
 /* http://deployment.googleapps.com/Home/user-resources/google-icons-and-logos */
 .header-nav a.gmail {
-    background-image: url(../images/googlemail-16.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    display: inline-block;
-    text-align: left;
-    text-indent: -9999px;
+	background-image: url(../images/googlemail-16.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+	text-align: left;
+	text-indent: -9999px;
 }
 
 /* https://developer.linkedin.com/documents/branding-guidelines */
 .header-nav a.linkedin {
-    background-image: url(../images/linkedin_16x16.png);
+	background-image: url(../images/linkedin_16x16.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+	text-align: left;
+	text-indent: -9999px;
+}
+
+/* https://developer.linkedin.com/documents/branding-guidelines */
+.header-nav a.github {
+    background-image: url(../images/github_16x16.png);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -54,11 +63,11 @@ body>header  {
 
 /* https://about.twitter.com/press/brand-assets */
 .header-nav a.twitter {
-    background-image: url(../images/twitter_20x16.png);
-    background-repeat: no-repeat;
-    background-position: 5px center;
-    /*  Padding between image and text is 30% of logo as per guidelines */
-    padding-left: 30px;
-    color: #55ACEE;
-    font-family: 'Alegreya Sans';
+	background-image: url(../images/twitter_20x16.png);
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	/*  Padding between image and text is 30% of logo as per guidelines */
+	padding-left: 30px;
+	color: #55ACEE;
+	font-family: 'Alegreya Sans';
 }

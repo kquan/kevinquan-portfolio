@@ -1,130 +1,83 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:300|Damion|Alegreya+Sans:300);
-@import url(normalize.css);
-@import url(support.css);
+@import
+	url(http://fonts.googleapis.com/css?family=Ubuntu:300|Alegreya+Sans:300)
+	;
 
+@import url(normalize.css);
+
+@import url(support.css);
 
 body {
 	font-family: 'Ubuntu';
 }
 
+a {
+	text-decoration:none;
+}
+
 .splash {
-	position:relative;
+	position: relative;
 	background-color: #fff;
 	background-image: url(../images/splash.jpg);
 	background-attachment: center;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+    border-top: 2px solid #fc3;
 	text-align: center;
 	width: 100%;
-	min-height:600px;
+	min-height: 600px;
 }
 
 .summary {
-	position:relative;
-	top:2em;
-	left:-12em;
+	position: relative;
+	top: 2em;
+	left: -12em;
 }
 
-.summary h1  {
-	font-family: 'Damion';
-	font-size: 6.7em;
-	text-indent:-0.15em;
-	color: #fc3;
+.summary h1 {
+	max-width:500px;
+	height:100px;
+	margin:0 auto;
+	display:block;
+	background-image: url(../images/kevinquan_title.png);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
 	/* Fix margin collapsing */
 	padding: 0;
-	margin: 0;
+	position:relative;
+	/* Fix inherent imbalance in font */
+	left:10px;
 }
 
 .pitch {
-	display:inline-block;
+	display: inline-block;
 	width: 475px;
-	margin-top:20px;
+	margin-top: 20px;
 	background: rgb(255, 255, 255);
 	background: rgba(0, 0, 0, 0.4);
 	border-radius: 25px;
-	padding:10px 15px 10px 15px;
-	font-size:1.6em;
+	padding: 10px 15px 10px 15px;
+	font-size: 1.6em;
 	text-align: left;
 	line-height: 125%;
+	color: #fff;
+}
+
+.pitch a {
 	color:#fff;
+	font-weight:bold;
 }
 
-.identities {
-	position:absolute;
-	top:50px;
-	right:125px;
-}
-
-.identities li {
-	list-style-type: none;
-}
-
-.identities li a {
-	background-repeat: no-repeat;
-	background-position: left center;
-	padding-left: 24px;
-	line-height: 24px;
-	text-decoration: none;
-	font-family: 'Alegreya Sans';
-	font-size: 0.9em;
-	color: #dddddd;
-}
-
-.identities li a:hover {
-	color: #ffffff;
-}
-
-/* https://www.facebookbrand.com/ */
-.identities a.facebook {
-	background-image: url(../images/facebook_16x16.png);
-}
-
-/* https://foursquare.com/about/logos */
-.identities a.foursquare {
-	background-image: url(../images/4sq_16x16.png);
-}
-
-/* http://instagram.com/press/ */
-.identities a.instagram {
-	background-image: url(../images/instagram_16x16.png);
-}
-
-/* https://github.com/logos */
-.identities a.github {
-	background-image: url(../images/github_16x16.png);
-}
-
-/* https://developers.google.com/+/branding-guideline */
-.identities a.google_plus {
-	background-image: url(../images/googleplus_16x16.png);
-}
-
-/* Copied from favicon.ico */
-.identities a.lastfm {
-	background-image: url(../images/lastfm_16x16.png);
-}
-
-/* Copied from favicon.ico */
-.identities a.mlkshk {
-	background-image: url(../images/mlkshk_16x16.png);
+.pitch a:hover {
+	text-decoration:underline;
 }
 
 .condado {
-	width: 100%;
 	background-image: url(../images/condado_background.jpg);
+	border-top:2px solid #f20000;
 	padding: 10px 0 25px 0;
 	color: #E4CA97;
 	text-align: center;
-}
-
-.condado h2 {
-	text-align: center;
-}
-
-.condado h2 a {
-	text-decoration: none;
-	display: block;
 }
 
 .condado h2 img {
