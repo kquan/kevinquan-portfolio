@@ -1,9 +1,14 @@
 body>footer {
-    width: 100%;
-    font-family: 'Alegreya Sans';
+	background: #333;
+	width: 100%;
+	font-family: 'Alegreya Sans';
 }
 
 body>footer .footer-copyright {
-    text-align: center;
-    font-size: 0.9em;
+	text-align: center;
+	font-size: 0.9em;
+	color: #ddd;
+	/* Fix margin collapsing */
+	padding: 15px 0 15px 0;
+	margin: 0;
 }

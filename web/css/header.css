@@ -1,10 +1,15 @@
-body>header {
+body>header  {
+	background: #777;
     width: 100%;
+    line-height:48px;
+    padding-bottom:10px;
+    border-bottom: 2px solid #e60;
 }
 
 .header-nav {
     text-align: right;
-    padding-right: 25px;
+    padding: 0 25px 0 0;
+    margin:0;
 }
 
 .header-nav li {

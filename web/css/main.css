@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
+
 @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:300);
 
 @import url(normalize.css);
@@ -5,7 +7,27 @@
 @import url(support.css);
 
 body {
-	background: #777777;
+	font-family: 'Ubuntu';
+}
+
+.summary {
+	background-color: #fff;
+	background-image: url(../images/splash.jpg);
+	background-attachment: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 500px;
+	text-align: center;
+}
+
+.summary h1 {
+	font-size: 5em;
+	color: #fff;
+	text-indent: -5em;
+	/* Fix margin collapsing */
+    padding: 0;
+    margin: 0;
 }
 
 .identities li {
@@ -34,12 +56,12 @@ body {
 
 /* https://foursquare.com/about/logos */
 .identities a.foursquare {
-    background-image: url(../images/4sq_16x16.png);
+	background-image: url(../images/4sq_16x16.png);
 }
 
 /* http://instagram.com/press/ */
 .identities a.instagram {
-    background-image: url(../images/instagram_16x16.png);
+	background-image: url(../images/instagram_16x16.png);
 }
 
 /* https://github.com/logos */
@@ -59,5 +81,83 @@ body {
 
 /* Copied from favicon.ico */
 .identities a.mlkshk {
-    background-image: url(../images/mlkshk_16x16.png);
+	background-image: url(../images/mlkshk_16x16.png);
+}
+
+.condado {
+	width: 100%;
+	background-image: url(../images/condado_background.jpg);
+	padding: 10px 0 25px 0;
+	color: #E4CA97;
+	text-align: center;
+}
+
+.condado h2 {
+	text-align: center;
+}
+
+.condado h2 a {
+	text-decoration: none;
+	display: block;
+}
+
+.condado h2 img {
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+.condado-description {
+	max-width: 650px;
+	margin: 0 auto;
+	font-size: 1.3em;
+	line-height: 150%;
+	padding: 0 10px 0 10px;
+}
+
+.condado-description a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #E4CA97;
+}
+
+.condado-description a:hover {
+	text-decoration: underline;
+}
+
+.condado-stats {
+	margin: 0 auto;
+	text-align: center;
+	padding: 25px 0 25px 0;
+}
+
+.condado-stats li {
+	display: inline-block;
+	margin: 7px 7px 7px 7px;
+	padding: 10px 0 25px 0;
+	list-style-type: none;
+	width: 200px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	font-family: 'Alegreya Sans';
+	text-align: center;
+}
+
+.condado-stat-number {
+	font-size: 3em;
+	height: 80px;
+	line-height: 80px;
+	vertical-align: middle;
+	font-family: 'Ubuntu';
+	display: block;
+}
+
+.condado_googleplay {
+	background-image: url(../images/googleplay_172x60.png);
+	background-repeat: no-repeat;
+	height: 60px;
+	width: 172px;
+	margin: 0 auto;
+	display: block;
+	text-indent: -9999px;
 }
