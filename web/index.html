@@ -4,6 +4,7 @@
 <head>
 <meta charset="utf-8" />
 <title>Kevin Quan -- a profile</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta name="description" content="Personal portfolio &amp; contact information for Kevin Quan">
 
 <meta name="author" content="Kevin Quan">
@@ -15,26 +16,27 @@
 <link rel="stylesheet" href="css/header.css" type="text/css" />
 <link rel="stylesheet" href="css/footer.css" type="text/css" />
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="js/animations.js"></script>
 <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 
 <body>
 	<header>
 		<nav>
-			<ul class="header-nav">
-				<li><a rel="author" href="mailto:kevin.quan+portfolio@gmail.com" class="gmail">kevin.quan+portfolio@gmail.com</a></li>
-				<li><a href="http://www.linkedin.com/in/kquan" class="linkedin">LinkedIn</a></li>
-				<li><a href="http://www.github.com/kquan" class="github">GitHub</a></li>
-				<li><a href="http://www.twitter.com/k3v/" class="twitter">@k3v</a></li>
+			<ul id="header-nav">
+				<li><a rel="author" href="mailto:kevin.quan+portfolio@gmail.com" id="gmail">kevin.quan+portfolio@gmail.com</a></li>
+				<li><a href="http://www.linkedin.com/in/kquan" id="linkedin">LinkedIn</a></li>
+				<li><a href="http://www.github.com/kquan" id="github">GitHub</a></li>
+				<li><a href="http://www.twitter.com/k3v/" id="twitter">@k3v</a></li>
 			</ul>
 		</nav>
 	</header>
 	
-	<section class="splash">
-        <article class="summary">
+	<section id="splash">
+        <article id="summary">
             <h1>Kevin Quan</h1>
-            <div class="pitch">
+            <div id="pitch">
                 <p>I am a multi-discipline product visionary with an innovative technical pedigree, located in Toronto</p>
                 <p>I attended <a href="http://uwaterloo.ca/electrical-computer-engineering/">Waterloo</a>, have worked at Microsoft, IBM &amp; currently at <a href="http://samsungaccelerator.com/">Samsung</a></p>
                 <p>My current passion is building spectacular Android apps.</p>
@@ -42,16 +44,18 @@
         </article>
 	</section>
 	
-	<section class="condado">
+	<section id="condado">
         <h2>
             <a href="http://play.google.com/store/apps/details?id=com.kevinquan.condado">
 	            <img src="images/condado_logo.png" alt="Icon for Condado">
 	            <img src="images/condado_title.png" alt="Condado">
             </a>
         </h2>
-        <p class="condado-description"><a href="http://play.google.com/store/apps/details?id=com.kevinquan.condado">Condado</a> is an free Android port of the popular card game <a href="http://riograndegames.com/games.html?id=170">San Juan by Andreas Seyfarth</a>.  I created this version entirely from scratch; building the UI, game engine &amp; challenging AI in my spare time.</p> 
+        <p id="condado-description"><a href="http://play.google.com/store/apps/details?id=com.kevinquan.condado">Condado</a> is an free Android port of the popular card game <a href="http://riograndegames.com/games.html?id=170">San Juan by Andreas Seyfarth</a>.  I created this version entirely from scratch; building the UI, game engine &amp; challenging AI <i>in my spare time</i>.</p>
+        <br/>
+        <p>It has been universally applauded</p> 
               
-        <ul class="condado-stats">
+        <ul id="condado-stats">
 	        <li>
 	           <span id="condado-downloads" class="condado-stat-number">30,000+</span> downloads
             </li>
@@ -63,22 +67,24 @@
 	        </li>
         </ul>
         
-        <a href="http://play.google.com/store/apps/details?id=com.kevinquan.condado" class="condado_googleplay">Download Condado from Google Play</a>
+        <a href="http://play.google.com/store/apps/details?id=com.kevinquan.condado" id="condado_googleplay">Download Condado from Google Play</a>
 	</section>
-	
-	<section>
-	   <!-- Other projects -->
-	</section>
-	
-    <section>
-       <!-- Publications/patents -->
-    </section>
 
 	<footer>
-		<section class="footer-copyright">
+		<section id="footer-copyright">
 			<p>&copy; 2014 Kevin Quan</p>
 		</section>
 	</footer>
+<!-- 	
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-301614-14', 'kevinquan.com');
+ga('send', 'pageview');
+</script>
+ -->
 </body>
 
 </html>
