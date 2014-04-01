@@ -30,14 +30,14 @@ $(window).scroll(function() {
 		}, 200);
 		setTimeout(function() {
 			$('#condado-stats li:nth-child(3)').addClass('condado-stat-visible');
-			$({countNum:0}).animate({countNum:700}, {
+			$({countNum:0}).animate({countNum:750}, {
 				duration: 1500,
 				easing: 'linear',
 				step: function() {
 					$('#condado-reviews').text(Math.floor(this.countNum)+"+");
 				},
 				complete: function() {
-					$('#condado-reviews').text("700+");
+					$('#condado-reviews').text("750+");
 				}
 			});
 		}, 400);

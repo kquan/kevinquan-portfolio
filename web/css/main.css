@@ -107,6 +107,59 @@ a {
     }
 }
 
+#healthiercommute {
+	background-image: url(../images/healthiercommute_background.jpg);
+	background-size: 100% 100%;
+	border-top: 2px solid #DDDDDD;
+	min-height:600px;
+	color: #FFFFFF;
+	padding: 10px 0 25px 0;
+}
+
+#healthiercommute_title {
+    text-align:center;
+}
+
+#healthiercommute_title li {
+	display:inline-block;
+	list-style-type: none;
+	padding:50px 50px 50px 50px;
+	vertical-align:middle;
+}
+
+#healthiercommute_title h3 {
+   font-size:1.5em;
+   font-weight:light;
+}
+
+#healthiercommute_intro {
+	text-align:center;
+}
+
+#healthiercommute_intro li {
+    display:inline-block;
+    list-style-type: none;
+    vertical-align:middle;	
+    padding:0 10px 0 10px;
+}
+
+#healthiercommute-description {
+    max-width:650px;
+    margin: 0 auto;
+    text-align:center;
+	font-size:1.1em; 
+	line-height:140%;
+}
+
+#healthiercommute-description a {
+    color:#fff;	
+    font-weight:bold;
+}
+
+#healthiercommute-description a:hover {
+	text-decoration:underline;
+}
+
 #condado {
 	background-image: url(../images/condado_background.jpg);
 	border-top: 2px solid #f20000;
